@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:21
+-keep class com.tns.NativeScriptActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.tns.NativeScriptApplication { <init>(...); }
+

@@ -1,0 +1,14 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <GridLayout rows="auto, *">
+    <StackLayout orientation="horizontal" row="0">
+      <TextField width="200" text="{{task}}" hint="Enter a task" id="task" />
+      <Button text="Add" tap="add"></Button>
+    </StackLayout>
+
+    <ListView items="{{tasks}}" row="1">
+      <ListView.itemTemplate>
+        <Label text="{{name}}" />
+      </ListView.itemTemplate>
+    </ListView>
+  </GridLayout>
+</Page>

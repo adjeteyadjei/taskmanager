@@ -1,0 +1,6 @@
+{
+	"id": "org.nativescript.task",
+	"tns-android": {
+		"version": "0.9.0"
+	}
+}

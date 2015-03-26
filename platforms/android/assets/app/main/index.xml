@@ -1,0 +1,17 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onPageLoaded" title="Tasks">
+  <GridLayout rows="auto, *">
+    <!-- <StackLayout row="1">
+      <TextField text="{{task}}" hint="Search" id="task" />
+    </StackLayout> -->
+
+    <ListView items="{{tasks}}" row="1">
+      <ListView.itemTemplate>
+        <Label text="{{name}}" />
+      </ListView.itemTemplate>
+    </ListView>
+
+    <AbsoluteLayout row="1" id="FABContainer">
+      <Image id="FAB" url="~/app/res/FAB_add.png" tap="addTask" stretch="fill" width="60" height="60" />
+    </AbsoluteLayout>
+  </GridLayout>
+</Page>

@@ -1,0 +1,16 @@
+{
+    "name":"Task",
+    "version":"0.0.1",
+    "description":"Task application to show off NativeScript for Axon MeetUp",
+    "repository": {
+        "type":"git",
+        "url":"git://github.com/NativeScript/template-hello-world.git"
+    },
+    "keywords":["nativescript","tns","appbuilder","telerik","mobile"],
+    "author":"Telerik",
+    "bugs": {
+        "url":"https://github.com/NativeScript/template-hello-world/issues"
+    },
+    "license":"MIT-2.0",
+    "homepage":"https://github.com/NativeScript/template-hello-world"
+}
